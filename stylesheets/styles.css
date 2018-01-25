@@ -1,14 +1,26 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,400,700,900);
 
 body {
   padding:50px;
   font:15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#555;
+  color:#111;
   font-weight:300;
+}
+.light {
+  font-weight: 300;
+}
+.regular {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 700;
+}
+.black {
+  font-weight: 900;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#111;
   margin:0 0 20px;
 }
 
@@ -25,11 +37,13 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  /*color:#393939;*/
+  color:#111;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  /*color:#494949;*/
+  color:#111;
 }
 
 a {
@@ -160,7 +174,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:550px;
   float:right;
   padding-bottom:50px;
 }
