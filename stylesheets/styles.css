@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,350,400,700,900);
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#111;
   font-weight:300;
 }
@@ -20,12 +20,18 @@ body {
 }
 .conf {
   font-weight: 300;
-  font-style: italic;
+  /*position:relative; */
+  /*top: 5px;*/
+  /*font-style: italic;*/
 }
 .authors {
   font-weight: 300;
 }
 .title {
+  font-weight: 400;
+}
+.paper {
+  /*color:#39c;*/
   font-weight: 400;
 }
 
@@ -39,11 +45,12 @@ p, ul, ol, table, pre, dl {
 }
 
 h1, h2, h3 {
+  padding-top: 20px;
   line-height:1.1;
 }
 
 h1 {
-  font-size:28px;
+  font-size:32px;
 }
 
 h2 {
@@ -57,8 +64,9 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
-  font-weight:400;
+  /*color:#39c;*/
+  color:#111;
+  font-weight:300;
   text-decoration:none;
 }
 
@@ -70,7 +78,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:1060px;
   margin:0 auto;
 }
 
@@ -184,7 +192,7 @@ header ul a strong {
 }
 
 section {
-  width:550px;
+  width:700px;
   float:right;
   padding-bottom:50px;
 }
