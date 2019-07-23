@@ -25,6 +25,8 @@ body {
   /*font-style: italic;*/
 }
 .authors {
+  /*font-style: italic;*/
+  color:#666;
   font-weight: 300;
 }
 .title {
@@ -68,6 +70,27 @@ a {
   color:#111;
   font-weight:300;
   text-decoration:none;
+}
+.color {
+  color:#39c;
+  font-weight:300;
+  text-decoration:none;
+
+}
+.docs {
+  background-color: white;
+  color: #777;
+  font-size:14px;
+  border-radius:5px;
+   box-sizing: border-box;
+  /*border-color:#39c;*/
+  border:1px solid #ccc;
+  padding: 0.25em 0.75em;
+  text-decoration: none;
+}
+.docs:hover {
+    color: #39c;
+    border:1px solid #39c;
 }
 
 a small {
@@ -285,3 +308,4 @@ footer {
     color:#444;
   }
 }
+
