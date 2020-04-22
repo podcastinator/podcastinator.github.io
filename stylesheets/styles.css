@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font:20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#111;
   font-weight:300;
 }
@@ -34,7 +34,7 @@ body {
 }
 .paper {
   /*color:#39c;*/
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -85,8 +85,9 @@ a {
    box-sizing: border-box;
   /*border-color:#39c;*/
   border:1px solid #ccc;
-  padding: 0.25em 0.75em;
+  padding: 0.1em 0.75em;
   text-decoration: none;
+  line-height:3;
 }
 .docs:hover {
     color: #39c;
